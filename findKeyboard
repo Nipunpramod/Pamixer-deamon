@@ -1,0 +1,3 @@
+#!/bin/bash
+res=$(ls  -al --color=always  /dev/input/by-path | grep --color=auto  "kbd")
+echo "$res"

@@ -1,0 +1,12 @@
+[Unit]
+Description=Pamixer deamon service 
+[Service]
+Type=simple
+ExecStart=/opt/pamixer/pamixer-deamon
+User=root
+Group=root
+Restart=on-failure
+[Install]
+WantedBy=multi-user.target
+
+ 

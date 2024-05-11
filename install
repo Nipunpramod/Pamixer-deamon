@@ -1,0 +1,15 @@
+#!/bin/bash
+gcc -o src/pamixer-deamon src/pamixer-deamon.c
+sudo mkdir /opt/pamixer/
+
+sudo cp src/pamixer-deamon /opt/pamixer/
+sudo cp config.txt /opt/pamixer/
+
+sudo cp src/pamixer-deamon.service /etc/systemd/system/
+
+sudo systemctl daemon-reload
+sudo systemctl enable pamixer-deamon.service
+sudo systemctl start pamixer-deamon.service 
+
+
+

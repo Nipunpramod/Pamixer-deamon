@@ -1,0 +1,5 @@
+/dev/input/event2
+
+#Modify this line to suit youre Computer keyboard event
+#like this /dev/input/event* 
+#you must edit first line input device path otherwise its doesnt work 

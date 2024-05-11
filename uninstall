@@ -1,0 +1,8 @@
+#!/bin/bash
+sudo systemctl stop pamixer-deamon.service 
+sudo systemctl disable pamixer-deamon.service
+sudo systemctl daemon-reload
+
+sudo rm /etc/systemd/system/pamixer-deamon.service
+
+sudo rm -r /opt/pamixer/
