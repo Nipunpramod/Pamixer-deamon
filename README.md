@@ -19,7 +19,7 @@ This is simple tool  for pulse audio control on the function keys . You can easi
 
 ![](assets/3.jpg)
 
-- Then you need to edit **src/pamixer-deamon.c** file and replace key code before you got values.
+- After that, you need to edit **src/pamixer-deamon.c** file with the values obtained earlier.
 
    		 nano src/pamixer-demon.c
 
