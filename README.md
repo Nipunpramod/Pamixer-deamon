@@ -11,7 +11,7 @@ This is simple tool  for pulse audio control on the function keys . You can easi
 
    		 nano config.txt
     
-![](assets/2.jpg)
+![](assets/2.png)
 
 - This executeable file find youre function key code . 
 
@@ -23,7 +23,7 @@ This is simple tool  for pulse audio control on the function keys . You can easi
 
    		 nano src/pamixer-demon.c
 
-![](assets/4.pnj)
+![](assets/4.png)
 
 - After you run **install** shell script . Thats all
 
